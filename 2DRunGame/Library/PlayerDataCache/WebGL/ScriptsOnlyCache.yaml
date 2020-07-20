@@ -11,10 +11,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -27,10 +25,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.Shadow
     - UnityEngine.UI.Text
   sceneClasses:
-    "Assets/\u5834\u666F/\u9078\u55AE.unity":
+    "Assets/\u5834\u666F/\u6309\u9215\u63A7\u5236\u52D5\u756B.unity":
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -47,10 +44,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -63,8 +56,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11332}
     - Class: 114
       Script: {instanceID: 11372}
-    - Class: 114
-      Script: {instanceID: 11714}
     - Class: 114
       Script: {instanceID: 11786}
     - Class: 114
@@ -520,5 +511,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 20
   scenePathNames:
-  - "Assets/\u5834\u666F/\u9078\u55AE.unity"
+  - "Assets/\u5834\u666F/\u6309\u9215\u63A7\u5236\u52D5\u756B.unity"
   playerPath: C:/Users/appedu/Documents/GitHub/Unity_HC_T-2D_Run-game-new/homework2
