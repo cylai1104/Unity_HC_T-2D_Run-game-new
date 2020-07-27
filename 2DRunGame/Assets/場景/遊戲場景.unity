@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 53998104}
   - component: {fileID: 53998108}
   - component: {fileID: 53998107}
+  - component: {fileID: 53998109}
   m_Layer: 0
   m_Name: "\u6A5F\u5668\u4EBA"
   m_TagString: Untagged
@@ -261,6 +262,30 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &53998109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53998103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a118e15259c5c42b59b2565f6c3dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  jump: 350
+  isGround: 0
+  hp: 500
+  coin: 0
+  soundHit: {fileID: 8300000, guid: c629d0bdba806ae4182b8fd5a7909eb2, type: 3}
+  soundSlide: {fileID: 8300000, guid: 234f064aeb6a45c4cb4523a2b209fbef, type: 3}
+  soundJump: {fileID: 8300000, guid: 69c5a7ddeb92b7540befcaf035230459, type: 3}
+  soundCoin: {fileID: 8300000, guid: 12241b370849d5448bcb0b7b566da5b6, type: 3}
+  ani: {fileID: 53998104}
+  rid: {fileID: 53998108}
+  cap: {fileID: 53998107}
 --- !u!1 &275987770
 GameObject:
   m_ObjectHideFlags: 0
