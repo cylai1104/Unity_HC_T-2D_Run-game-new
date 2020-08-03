@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class player : MonoBehaviour
+public class Player : MonoBehaviour
 {
     #region 欄位
     [Header("移動速度"), Range(0, 1000)]
@@ -39,7 +39,11 @@ public class player : MonoBehaviour
     /// </summary>
     private void Jump()
     {
-        ani.SetBool("跳躍開關", true);
+        // 動畫控制器.設定布林值("參數名稱"，布林值)
+        // true 玩家是否按下空白鍵
+        bool space = Input.GetKeyDown(KeyCode.Space);
+        print(space);
+        ani.SetBool("跳躍開關", space);
        
     }
 
@@ -48,7 +52,18 @@ public class player : MonoBehaviour
     /// </summary>
     private void Slide()
     {
-    
+        bool ctrl = Input.GetKeyDown(KeyCode.LeftControl);
+
+        ani.SetBool("滑行開關", ctrl);
+
+        // 如果 按下 ctrl
+        // 滑行 位移 
+        // 否則
+        // 站立 位移-0.1 -0.4 尺寸 0.8 0.8
+
+        
+           
+        
     }
 
     /// <summary>
@@ -86,11 +101,14 @@ public class player : MonoBehaviour
 
     #region 事件
     private void Start()
+    {
+    }
 
     private void Update()
     
     {
         Jump();
+        Slide();
     }
 
     #endregion

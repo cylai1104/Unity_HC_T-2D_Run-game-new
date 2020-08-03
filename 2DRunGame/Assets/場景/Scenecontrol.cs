@@ -2,7 +2,7 @@
 using UnityEngine.SceneManagement; // 引用 場景管理 API
 
 
-public class SceneControl : MonoBehaviour
+public class Scenecontrol : MonoBehaviour
 {
     /// <summary>
     /// 切換場景

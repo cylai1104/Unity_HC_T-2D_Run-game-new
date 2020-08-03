@@ -16,9 +16,11 @@ public class LearnAPI : MonoBehaviour
 
     public Light myLight;
     
-    public Camera 
+    public Camera cam; 
 
     private void Start()
+
+    
     {
         //取得屬性peoperties
         //※※※※※ 語法:
@@ -38,7 +40,7 @@ public class LearnAPI : MonoBehaviour
         // 練習:
         // 1.控制燈光顏色為紅色 light
         //myLight.color = Color.red;
-        myLight.Color = new Color(0.8f, 0, 0);
+        myLight.color = new Color(0.8f, 0, 0);
         // 2.設定燈光恢復預設值 light
         myLight.Reset();
     
