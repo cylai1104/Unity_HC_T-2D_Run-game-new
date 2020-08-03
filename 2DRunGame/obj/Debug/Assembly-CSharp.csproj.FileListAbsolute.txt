@@ -1,0 +1,2 @@
+C:\Users\appedu\Desktop\Unity_HC_T-2D_Run-game-new\2DRunGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\appedu\Desktop\Unity_HC_T-2D_Run-game-new\2DRunGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

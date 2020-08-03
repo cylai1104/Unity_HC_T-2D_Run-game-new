@@ -39,7 +39,8 @@ public class player : MonoBehaviour
     /// </summary>
     private void Jump()
     {
-
+        ani.SetBool("跳躍開關", true);
+       
     }
 
     /// <summary>
@@ -84,6 +85,13 @@ public class player : MonoBehaviour
     #endregion
 
     #region 事件
+    private void Start()
+
+    private void Update()
     
+    {
+        Jump();
+    }
+
     #endregion
 }

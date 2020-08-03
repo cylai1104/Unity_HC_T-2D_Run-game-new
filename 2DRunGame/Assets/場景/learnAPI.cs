@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class learnAPI : MonoBehaviour
+public class LearnAPI : MonoBehaviour
 {
     // 非靜態成員需要
     // 1.實體物件或元件(Unity階層面板)
@@ -13,6 +13,10 @@ public class learnAPI : MonoBehaviour
     public Transform tra;
 
     public Transform cube;
+
+    public Light myLight;
+    
+    public Camera 
 
     private void Start()
     {
@@ -33,9 +37,13 @@ public class learnAPI : MonoBehaviour
 
         // 練習:
         // 1.控制燈光顏色為紅色 light
+        //myLight.color = Color.red;
+        myLight.Color = new Color(0.8f, 0, 0);
         // 2.設定燈光恢復預設值 light
+        myLight.Reset();
+    
         // 3.調整攝影機的尺寸 3 Camera
-   =
+   
     }
 
     private void Update()
