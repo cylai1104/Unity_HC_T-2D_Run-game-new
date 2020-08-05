@@ -153,6 +153,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 952bccbfb149cd94eb2e0b8ffa093c13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sphere: {fileID: 0}
+  tra: {fileID: 0}
+  cube: {fileID: 0}
+  myLight: {fileID: 0}
+  cam: {fileID: 0}
 --- !u!135 &109643317
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -324,6 +329,7 @@ GameObject:
   - component: {fileID: 750082354}
   - component: {fileID: 750082355}
   - component: {fileID: 750082356}
+  - component: {fileID: 750082357}
   m_Layer: 0
   m_Name: "\u5B78\u7FD2\u7269\u4EF6"
   m_TagString: Untagged
@@ -445,6 +451,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   open: 1
   score: 100
+--- !u!114 &750082357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750082350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b372220419e5f4648a3496e0241e8efd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  A: 0
+  B: 100
+  C: 0
+  D: 100
 --- !u!1 &1132960248
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +499,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 952bccbfb149cd94eb2e0b8ffa093c13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sphere: {fileID: 0}
+  tra: {fileID: 0}
+  cube: {fileID: 0}
+  myLight: {fileID: 0}
+  cam: {fileID: 0}
 --- !u!65 &1132960250
 BoxCollider:
   m_ObjectHideFlags: 0
