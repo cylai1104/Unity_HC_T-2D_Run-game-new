@@ -2017,7 +2017,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: aae41d5763aa02e46ae2f9ce1b932989, type: 3}
+    m_Font: {fileID: 12800000, guid: aebb983d94947f84d9839e56d25254ab, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
