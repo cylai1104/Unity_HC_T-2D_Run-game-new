@@ -85,7 +85,7 @@ public class Player : MonoBehaviour
                 //剛體.添加推力(二維向量)
                 rig.AddForce(new Vector2(0, jump));
                 //是否在地板上 = 否
-                aud.PlayOneShot(soundJump, 0.5f);
+                aud.PlayOneShot(soundJump, 0.2f);
             }
         }
     }
@@ -98,7 +98,7 @@ public class Player : MonoBehaviour
         bool ctrl = Input.GetKey(KeyCode.LeftControl);
         ani.SetBool("滑行開關", ctrl);
         //如果判斷物的程式內容只有一行，可以省略大括號
-        if (Input.GetKeyDown(KeyCode.LeftControl)) aud.PlayOneShot(soundSlide, 0.5f);
+        if (Input.GetKeyDown(KeyCode.LeftControl)) aud.PlayOneShot(soundSlide, 0.2f);
         if (ctrl)
         {
             cap.offset = new Vector2(-0.3f, -0.1f);
@@ -126,7 +126,7 @@ public class Player : MonoBehaviour
     private void Eatcoin(GameObject obj)
     {
         coin++;
-        aud.PlayOneShot(soundCoin, 1.2f);
+        aud.PlayOneShot(soundCoin, 0.2f);
         textCoin.text = "金幣數量:" + coin;
         Destroy(obj);
     }
@@ -137,7 +137,7 @@ public class Player : MonoBehaviour
     private void Hit()
     {
         hp -= 20;
-        aud.PlayOneShot(soundHit, 1.2f);
+        aud.PlayOneShot(soundHit, 0.2f);
         imageHp.fillAmount = hp / hpMax;
         if (hp <= 0) Die();
         
@@ -153,6 +153,7 @@ public class Player : MonoBehaviour
         speed = 0;
         die = true;
         textTitle.text = "啊哦，死掉了";
+        textFinalCoin.text = "本次獲得金幣:" + coin;
     }
 
     /// <summary>
