@@ -5,24 +5,13 @@ ScriptsOnlyBuild:
     - Player
     - Scenecontrol
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
-    - UnityEditor.Tilemaps.GridPaintPaletteClipboard
-    - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
-    - UnityEditor.Tilemaps.PaintableSceneViewGrid
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -61,19 +50,19 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11160}
+      Script: {instanceID: 11174}
     - Class: 114
-      Script: {instanceID: 11334}
+      Script: {instanceID: 11348}
     - Class: 114
-      Script: {instanceID: 11374}
+      Script: {instanceID: 11388}
     - Class: 114
-      Script: {instanceID: 11794}
+      Script: {instanceID: 11808}
     - Class: 114
-      Script: {instanceID: 12208}
+      Script: {instanceID: 12222}
     - Class: 114
-      Script: {instanceID: 12722}
+      Script: {instanceID: 12736}
     - Class: 114
-      Script: {instanceID: 13108}
+      Script: {instanceID: 13122}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -130,27 +119,27 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 580}
+      Script: {instanceID: 578}
     - Class: 114
-      Script: {instanceID: 11160}
+      Script: {instanceID: 11174}
     - Class: 114
-      Script: {instanceID: 11334}
+      Script: {instanceID: 11348}
     - Class: 114
-      Script: {instanceID: 11374}
+      Script: {instanceID: 11388}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11396}
     - Class: 114
-      Script: {instanceID: 11794}
+      Script: {instanceID: 11808}
     - Class: 114
-      Script: {instanceID: 12208}
+      Script: {instanceID: 12222}
     - Class: 114
-      Script: {instanceID: 12650}
+      Script: {instanceID: 12664}
     - Class: 114
-      Script: {instanceID: 12722}
+      Script: {instanceID: 12736}
     - Class: 114
-      Script: {instanceID: 13016}
+      Script: {instanceID: 13030}
     - Class: 114
-      Script: {instanceID: 13108}
+      Script: {instanceID: 13122}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -211,23 +200,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11160}
+      Script: {instanceID: 11174}
     - Class: 114
-      Script: {instanceID: 11334}
+      Script: {instanceID: 11348}
     - Class: 114
-      Script: {instanceID: 11374}
+      Script: {instanceID: 11388}
     - Class: 114
-      Script: {instanceID: 11722}
+      Script: {instanceID: 11736}
     - Class: 114
-      Script: {instanceID: 11794}
+      Script: {instanceID: 11808}
     - Class: 114
-      Script: {instanceID: 12208}
+      Script: {instanceID: 12222}
     - Class: 114
-      Script: {instanceID: 12650}
+      Script: {instanceID: 12664}
     - Class: 114
-      Script: {instanceID: 12722}
+      Script: {instanceID: 12736}
     - Class: 114
-      Script: {instanceID: 13108}
+      Script: {instanceID: 13122}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -732,4 +721,4 @@ ScriptsOnlyBuild:
   - "Assets/\u5834\u666F/\u9078\u55AE.unity"
   - "Assets/\u5834\u666F/\u6309\u9215\u63A7\u5236\u52D5\u756B.unity"
   - "Assets/\u5834\u666F/\u904A\u6232\u5834\u666F.unity"
-  playerPath: C:/Users/appedu/Desktop/Unity_HC_T-2D_Run-game-new/webbb
+  playerPath: C:/Users/Bin/Desktop/murrr/unity/Unity_HC_T-2D_Run-game-new/webbb
